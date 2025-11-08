@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test API</title>
+</head>
+
+<body>
+    <h1>Test HR Assistant API</h1>
+
+    <h2>Test with Vietnamese</h2>
+    <p>
+        <button onclick="testVietnamese()">Send Vietnamese Message</button>
+    </p>
+    <pre id="result-vi"></pre>
+
+    <h2>Test with English</h2>
+    <p>
+        <button onclick="testEnglish()">Send English Message</button>
+    </p>
+    <pre id="result-en"></pre>
+
+    <script>
+        async function testVietnamese() {
+            try {
+                const response = await fetch("http://localhost:8000/api/chat", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        message: "Xin nhân viên xin nghỉ phép hằng năm",
+                        language: "vi"
+                    })
+                });
+
+                const data = await response.json();
+                document.getElementById("result-vi").textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                document.getElementById("result-vi").textContent = "Error: " + error.message;
+            }
+        }
+
+        async function testEnglish() {
+            try {
+                const response = await fetch("http://localhost:8000/api/chat", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        message: "How can an employee request annual leave?",
+                        language: "en"
+                    })
+                });
+
+                const data = await response.json();
+                document.getElementById("result-en").textContent = JSON.stringify(data, null, 2);
+            } catch (error) {
+                document.getElementById("result-en").textContent = "Error: " + error.message;
+            }
+        }
+    </script>
+</body>
+
+</html>

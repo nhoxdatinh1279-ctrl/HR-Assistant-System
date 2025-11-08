@@ -1,0 +1,42 @@
+JOHN DOE
+Email: john@example.com | Phone: +1-234-567-8900
+
+PROFESSIONAL SUMMARY
+Experienced software developer with 5 years of expertise in Python, Java, and web development technologies.
+
+TECHNICAL SKILLS
+Programming Languages: Python, Java, JavaScript, SQL
+Web Frameworks: Django, Spring Boot, React, Next.js
+Databases: PostgreSQL, MongoDB, MySQL
+Tools: Git, Docker, Kubernetes, AWS, CI/CD pipelines
+Cloud Services: AWS (EC2, S3, Lambda), Azure
+
+WORK EXPERIENCE
+
+Senior Python Developer | Tech Company A | Jan 2022 - Present
+- Designed and implemented scalable Python microservices serving 1M+ requests daily
+- Led team of 3 developers in migrating legacy code to modern architecture
+- Implemented CI/CD pipelines reducing deployment time by 60%
+- Technologies: Python, FastAPI, PostgreSQL, Docker, Kubernetes
+
+Python Developer | Tech Company B | Jun 2020 - Dec 2021
+- Built REST APIs using Django and FastAPI
+- Developed data pipeline processing 100GB+ daily
+- Optimized database queries reducing response time by 40%
+- Technologies: Python, Django, PostgreSQL, Redis
+
+Junior Developer | Tech Company C | Jan 2019 - May 2020
+- Contributed to backend services in Python
+- Assisted in code reviews and documentation
+- Technologies: Python, Flask, MySQL
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Technology | Graduated: May 2018
+
+CERTIFICATIONS
+AWS Solutions Architect Associate (2021)
+Python Professional Certificate (2020)
+
+SOFT SKILLS
+Leadership, Problem Solving, Teamwork, Communication, Analytical Thinking
