@@ -1,0 +1,37 @@
+.git
+.gitignore
+README.md
+node_modules
+npm-debug.log
+
+# Backend files (not needed for frontend)
+backend/
+__pycache__/
+*.py
+*.pyc
+.pytest_cache/
+
+# Documentation
+*.md
+docs/
+
+# Test files
+test_*.py
+test_*.ps1
+test_*.html
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Demo files
+demo_*
+HACKATHON_PRESENTATION.md
+TECHNOLOGIES_SUMMARY.md
+GIT_UPLOAD_GUIDE.md
+VERCEL_DEPLOYMENT_GUIDE.md
